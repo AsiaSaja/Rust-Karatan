@@ -1,4 +1,4 @@
-## 01-setup-rust-for-macbook - verifikasi
+# 01-setup-rust-for-macbook - verifikasi
 
 ini adalah dokumentasi untuk setup Rust Language Programming di MacOS terutama versi Apple Silicon.
 

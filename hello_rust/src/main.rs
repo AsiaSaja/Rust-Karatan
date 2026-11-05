@@ -1,10 +1,16 @@
 fn main() {
-    let nama = "Macbook Air M1";
-    let tahun = 2023;
-    let x = 5;
-
-    println!("Halo dari {}", nama);
-    println!("Saya mulai kuliah tahun {}", tahun);
-    println!("Sekarang saya ingin mempelajari Rust");
-    println!("{}", x);
+    // 1. immutable
+    let nama = "Budi";
+    println!("Halo, {}", nama);
+    
+    // 2. mutable
+    let mut umur = 20;
+    umur = 21;
+    println!("Umur: {}", umur);
+    
+    // 3. shadowing dengan tipe berubah
+    let nilai = "100";
+    println!("Nilai sebagai string: {}", nilai);
+    let nilai: i32 = nilai.parse().unwrap();
+    println!("Nilai sebagai angka + 1: {}", nilai + 1);
 }
